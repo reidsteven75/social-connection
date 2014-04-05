@@ -1,12 +1,27 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
+  "name": "social-connection",
+  "version": "0.0.0",
+  "description": "API for app",
+  "main": "web.js",
   "dependencies": {
-    "express": "3.5.1",
-    "jade": "*"
-  }
+    "express": "~3.5.1",
+    "jade": "~1.3.1",
+    "logfmt": "~1.1.2",
+    "mongodb": "~1.4.0",
+    "mongoose": "~3.8.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reidsteven75/social-connection.git"
+  },
+  "author": "steve reid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reidsteven75/social-connection/issues"
+  },
+  "homepage": "https://github.com/reidsteven75/social-connection"
 }
